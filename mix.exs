@@ -4,8 +4,8 @@ defmodule ExJsonSchema.Mixfile do
   def project do
     [
       app: :ex_json_schema,
-      version: "0.6.1",
-      elixir: "~> 1.3",
+      version: "1.0.0",
+      elixir: "~> 1.9",
       description:
         "A JSON Schema validator with full support for the draft 4 specification and zero dependencies.",
       deps: deps(),
@@ -45,9 +45,10 @@ defmodule ExJsonSchema.Mixfile do
   defp package do
     [
       files: ~w(lib mix.exs README.md LICENSE),
-      maintainers: ["Jonas Schmidt"],
+      maintainers: ["Todd Resudek"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/jonasschmidt/ex_json_schema"}
+      links: %{"GitHub" => "https://github.com/GhostGroup/ex_json_schema"},
+      organization: "weedmaps"
     ]
   end
 end
